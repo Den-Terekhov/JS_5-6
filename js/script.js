@@ -1,3 +1,6 @@
+(function(){
+
+
 var timerOutput = document.createElement('div');
 document.body.appendChild(timerOutput);
 timerOutput.classList.add('wrapper');
@@ -106,3 +109,4 @@ function timerReset() { //обработка нажатия кнопки Reset
   checkStop = 0;
   counter = 1;
 }
+})()
